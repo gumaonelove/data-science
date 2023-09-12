@@ -166,3 +166,7 @@ cython_debug/
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+/Яндекс Практикум/Мастерская данных/data/
+/Яндекс Практикум/Мастерская данных 2/data/
+/Тинькофф/Проекты/Диалоговая система/learning/data.csv
+/Тинькофф/Проекты/Диалоговая система/learning/output.zip

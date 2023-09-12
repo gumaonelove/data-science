@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: api_service_container
+    build: ./api
+    restart: always
+    ports:
+      - "84:84"
+    env_file:
+      .env
+
+  telegram:
+    container_name: telegram_service_container
+    build: ./telegram
+    restart: always
+    env_file:
+      .env
+    depends_on:
+      - api
